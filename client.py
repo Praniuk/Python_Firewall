@@ -1,7 +1,7 @@
 import socket
 
 def send_packets(target_ip, target_port, message):
-    # Create a socket (IPv4, TCP)
+    # Create a TCP client socket
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     # Connect to the receiving device (firewall) by IP and port
