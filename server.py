@@ -2,7 +2,7 @@ import socket
 
 
 def start_server(listen_ip, listen_port):
-    # Create a socket (IPv4, TCP)
+    # Create a TCP socket
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     # Bind the socket to the IP address and port
