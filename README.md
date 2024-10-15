@@ -1,2 +1,2 @@
 # Python_Firewall
-A simple firewall script in python, with DDos prevention
+This is a simple firewall script in python, with DDos prevention, and logging function. It works by incorporating the pyDivert library, which binds to WinDivert, allowing user-mode applications to capture and modify network traffic. To test this script, I used a socket connection, through which i was sending packets from client device to the server device, that was also running the firewall itself.
